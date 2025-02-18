@@ -1,0 +1,29 @@
+# Your Name
+# Date
+# Assignment Name
+# A brief description of the project
+
+##import math
+##x = math.pi
+##print("The value of pi in the math function is " + str(format(x,',.2f'))+'.')
+
+import math
+radius = float(input("What is the radius of the circle? "))
+print("\n") # newline character
+diameter = radius * 2
+
+circumference = 2 * radius * math.pi
+
+area = math.pi * math.pow(radius,2)
+print(f'The diameter of the circle is {diameter:.1f}\n')
+print(f'The circumference of the circle is {circumference:.2f}\n')
+print(f'The area of the circle is {area:.3f}\n')
+
+
+
+print(f'Diameter:{diameter:.1f}\n')
+print(f'Circmference:{circumference:.1f}\n')
+print(f'Area:{area:.1f}\n')
+
+
+input("Press any key to continue!!")
