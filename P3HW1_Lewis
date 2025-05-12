@@ -1,0 +1,56 @@
+#Your Name
+#Date
+#Assignment Name
+#Brief description of program
+
+# This program takes a number grade , determines average and displays letter grade for average.
+
+# Enter grades for six modules
+
+mod_1 = float(input('Enter grade for Module 1: '))
+mod_2 = float(input('Enter grade for Module 2: '))
+mod_3 = float(input('Enter grade for Module 3: '))
+mod_4 = float(input('Enter grade for Module 4: '))
+mod_5 = float(input('Enter grade for Module 5: '))
+mod_6 = float(input('Enter grade for Module 6: '))
+
+# add grades entered to a list
+
+grades = [mod_1, mod_2, mod_3, mod_4, mod_5, mod_6]
+# determine lowest, highest , sum and average for grades
+
+low = min(grades)
+high = max(grades)
+total = sum(grades)
+avg = total / len(grades)
+
+print()
+print('-'*10, 'Results', '-'*10)
+print(f'{'Lowest Grade:':<20} {low}')
+print(f'{'Highest Grade:':<20} {high}')
+print(f'{'Sum of Grades:':<20} {total}')
+print(f'{'Average:':<20} {avg:.2f}')
+
+# determine letter grade for average
+
+print('-'*25)
+
+if avg > 90:
+    else: 
+        print('Your grade is: A')
+
+if avg > 80:
+    else:
+        print('Your grade is: A')
+
+if avg > 70:
+    else:
+        print('Your grade is: C')
+
+if avg > 60:
+    else:
+        print('Your grade is: D')
+
+if avg > 50:
+    else:
+        print('Your grade is: F')
